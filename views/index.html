@@ -4,26 +4,25 @@
 
    <head>
       <title>File Metadata</title>
-      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link rel="shortcut icon" href=" " type="image/x-icon"/>
       <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
       <link href="/public/style.css" rel="stylesheet" type="text/css">
-   </head>
+ 
+  </head>
 
    <body>
 
       <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
-        <h3>User Stories:</h3>
-        <ol>
-          <li>I can submit a form object that includes a file upload.</li>
-          <li>The from file input field  has the "name" attribute set to "upfile". We rely on this in testing.</li>
-          <li>When I submit something, I will receive the file name, and size in bytes within the JSON response.</li>
-        </ol>
 
-        <h3>Usage:</h3>
-        <p>
-          Please Upload a File ...
-        </p>
+        <div id="particles-js">
+  <div class="container">
+    <div class="row top">
+      <div class="twelve column">
+        <div class="logo"></div>
+        <h1>API Project: File Metadata Microservice</h1>
+        <h2> File Uploader</h2>
+      </div>
+    </div>
         <div class="view">
           <h4 id="output"></h4>
           <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
@@ -34,10 +33,124 @@
       </div>
       <div class="footer">
         <p>
-          by 
-          <a href="http://www.freecodecamp.com">freeCodeCamp</a>
+          By
+          <a href="https://dantelentsoe.netlify.app/" class="upload-btn">Dante Lentsoe</a>
         </p>
       </div>
+          <script>
+          
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 33,
+      "density": {
+        "enable": true,
+        "value_area": 1420.4657549380909
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "triangle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.06313181133058181,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 11.83721462448409,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+ 
+          </script>
    </body>
 
 
